@@ -94,6 +94,10 @@
     .nine{
         margin-left: -20px;
     }
+    .action-feature:hover{
+        border: 1px solid transparent ;
+    
+    }
     /*****footer section*****/
     .footers{
         margin: 0 30px;
@@ -229,6 +233,10 @@
     }
     .nine{
         margin-left: -20px;
+    }
+    .action-feature:hover{
+        border: 1px solid transparent ;
+    
     }
     /******footer section*****/
     .footers{
