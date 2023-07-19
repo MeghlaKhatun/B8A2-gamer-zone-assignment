@@ -48,8 +48,19 @@
         margin-top: 0;
         margin-left: 0;
     }
+    /****** Start action section******/
+    .action-first {
+        flex-direction: column;
+    }
+    .action-second {
+        flex-direction: column;
+    }
     
 }
+
+
+
+
 
 @media screen and (max-width:576px) {
 
@@ -117,4 +128,12 @@
         margin-top: 0;
         margin-left: 0;
     }
+     /****** Start action section******/
+     .action-first {
+        flex-direction: column;
+    }
+    .action-second {
+        flex-direction: column;
+    }
+    
 }
