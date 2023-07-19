@@ -55,8 +55,10 @@ body{
 }
 .header-icon{
     font-size: 1.5rem;
+    text-decoration: none;
   
 }
+
 /******End Header Style*******/
 
 /******Star Banner Style*******/
@@ -278,9 +280,7 @@ body{
     justify-content: center;
     align-items: center;
 }
-.footer-head img{
-    /* padding: 0 0 0 0; */
-}
+
 .footer-head h2{
     font-size: 2.8rem;
     font-weight: 700;
