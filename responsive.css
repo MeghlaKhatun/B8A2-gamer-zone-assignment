@@ -22,6 +22,15 @@
     .banner-text h1 {
         font-size: 5rem;
     }
+    /*****Online-gamer section******/
+    .online-game {
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+    .online-game-boxs {
+        margin: 0 0;
+    }
+    
 }
 
 @media screen and (max-width:576px) {
@@ -63,5 +72,12 @@
     .banner-img img{
         width: 100%;
         margin-top: 50px;
+    }
+    /*****Online-gamer section******/
+    .online-game {
+        grid-template-columns: 1fr;
+    }
+    .online-game-boxs {
+        margin: 0 0;
     }
 }
