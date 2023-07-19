@@ -241,11 +241,19 @@ body{
 .action-area{
     margin: 50px 0 100px 0;
 }
-.action-feature{
+.action-feature {
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.5s;
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+.action-feature:hover{
+    cursor: pointer;
+    border: 1px solid #FF42A5 ;
+    border-radius: 50px;
 
 }
 .action-feature h4{
@@ -256,12 +264,7 @@ body{
 .action-feature img{
     padding: 20px;
 }
-.action-feature:hover{
-    width: 270px;
-    height: 90px;
-    border: 1px solid #FF42A5 ;
-    border-radius: 50px;
-}
+
 .action-feature:hover h4{
     color: #F948B2;
 }
