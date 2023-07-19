@@ -187,3 +187,41 @@ body{
 
 
 /******End online-game Style*******/
+
+/****** Start Play instant style******/
+
+.play-instant{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.play-instant-text h3{
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    width: 353px;
+}
+.play-span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instant-text p{
+    color: #534C64;
+    text-align: right;
+    font-size: 1.13rem;
+    font-weight: 400;
+    width: 353px;
+}
+.rectangle-55 img{
+    width: 100%;
+    position: relative;
+}
+.rectangle-66 img{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: -150px;
+}
+
+/****** End Play instant style******/

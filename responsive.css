@@ -30,6 +30,24 @@
     .online-game-boxs {
         margin: 0 0;
     }
+    .online-game-area {
+        margin: 0 0;
+    }
+    /******Start play instant section*****/
+    .play-instant-text h3 {
+        text-align: center;
+    }
+    .play-instant-text p {
+        text-align: center;
+    }
+    .play-instant {
+        flex-direction: column;
+    }
+    .rectangle-66 img {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
+    }
     
 }
 
@@ -79,5 +97,24 @@
     }
     .online-game-boxs {
         margin: 0 0;
+    }
+    .online-game-area {
+        margin: 0 0;
+    }
+
+      /******Start play instant section*****/
+    .play-instant-text h3 {
+        text-align: center;
+    }
+    .play-instant-text p {
+        text-align: center;
+    }
+    .play-instant {
+        flex-direction: column;
+    }
+    .rectangle-66 img {
+        width: 100%;
+        margin-top: 0;
+        margin-left: 0;
     }
 }
