@@ -229,15 +229,11 @@ body{
 
 
 /****** Start action style******/
-
 .action-first{
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin-bottom: 20px;
-}
-.action-second{
-    display: flex;
-    justify-content: space-evenly;
 }
 
 .action-area{
@@ -248,7 +244,7 @@ body{
     justify-content: center;
     align-items: center;
     transition: 0.5s;
-    
+
 }
 .action-feature h4{
     color: #0B0223;
@@ -259,7 +255,7 @@ body{
     padding: 20px;
 }
 .action-feature:hover{
-    width: 250px;
+    width: 270px;
     height: 90px;
     border: 1px solid #FF42A5 ;
     border-radius: 50px;
@@ -295,11 +291,15 @@ body{
     color: #FF42A5 ;
 }
 .footer-text{
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 50%;
+    margin: auto;
     justify-content: center;
-    gap: 20px;
+    padding: 50px 0;
 }
-.footer-text h6{
+.footer-text a{
+    text-decoration: none;
     color: #FFF;
     font-size: 1.13rem;
     font-weight: 600;
@@ -318,15 +318,20 @@ body{
     cursor: pointer;
 }
 .footer-ul{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  width: 55%;
+  margin: auto;
+  padding: 50px 0;
+  
 }
-.footer-ul h6{
+.footer-ul a{
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
     font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
+    gap: 20px;
 }
 .footer h6{
     color: rgba(255, 255, 255, 0.60);

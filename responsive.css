@@ -22,10 +22,17 @@
     .banner-text h1 {
         font-size: 5rem;
     }
+    .banner-text h2 {
+        padding-top: 50px;
+    }
     /*****Online-gamer section******/
+    .online-game-head h2 {
+        margin-top: 100px;
+    }
     .online-game {
         grid-template-columns: repeat(2,1fr);
-        gap: 10px;
+        gap: 30px;
+        margin: 50px 20px;
     }
     .online-game-boxs {
         margin: 0 0;
@@ -43,17 +50,48 @@
     .play-instant {
         flex-direction: column;
     }
-    .rectangle-66 img {
-        width: 100%;
-        margin-top: 0;
-        margin-left: 0;
+    .rectangle-55 img {
+        width: 70%;
+        float: right;
+        margin-right: 50px;
     }
-    /****** Start action section******/
+    .rectangle-55{
+        margin-top: 50px;
+    }
+    .rectangle-66 img {
+        margin-left: 50px;
+        width: 40%;
+        margin-top: -230px;
+    }
+    /***** Start action section*****/
     .action-first {
         flex-direction: column;
     }
     .action-second {
         flex-direction: column;
+    }
+    /*****footer section*****/
+    .footers{
+        margin: 0 30px;
+    }
+    .footer-text {
+        margin: 0 40px;
+        width: auto;
+        text-align: center;
+    }
+   
+    .footer-icons {
+        width: 70%;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+    .footer-ul { 
+        width: auto;
+        text-align: center;
+    }
+    .footer{
+        margin-top: 20px;
     }
     
 }
@@ -80,7 +118,6 @@
         text-align: center;
     }
     .header-icons {
-        flex-direction: column;
         margin-top: 10px;
     }
     .header-logo img {
@@ -105,15 +142,19 @@
     /*****Online-gamer section******/
     .online-game {
         grid-template-columns: 1fr;
+        margin: 0 40px;
     }
     .online-game-boxs {
-        margin: 0 0;
+        margin: 10px 0;
     }
     .online-game-area {
         margin: 0 0;
     }
 
       /******Start play instant section*****/
+      .play-instant-img {
+        margin: 30px 30px 0;
+    }
     .play-instant-text h3 {
         text-align: center;
     }
@@ -123,12 +164,18 @@
     .play-instant {
         flex-direction: column;
     }
+    .rectangle-55 img {
+        width: 70%;
+        float: right;
+        margin-right: 10px;
+    }
     .rectangle-66 img {
-        width: 100%;
-        margin-top: 0;
+        width: 45%;
+        margin-top: -100px;
         margin-left: 0;
     }
-     /****** Start action section******/
+
+    /***** Start action section*****/
      .action-first {
         flex-direction: column;
     }
@@ -137,17 +184,19 @@
     }
 
     /******footer section*****/
+    .footers{
+        margin: 0 30px;
+    }
     .footer-text {
-        flex-direction: column;
-        margin: 30px 0;
-    }
-    .footer-text h6 {
-        margin: 0;
+        grid-template-columns: repeat(3,1fr);
+        width: auto;
         text-align: center;
+        gap: 20px 0;
     }
+   
     .footer-icons {
         margin: 0 auto;
-        width: 50%;
+        width: 80%;
         grid-template-columns: repeat(3,1fr);
         gap: 30px 10px;
     }
@@ -155,11 +204,10 @@
         text-align: center;
     }
     .footer-ul {
-        flex-direction: column;
-    }
-    .footer-ul h6 {
+        grid-template-columns: repeat(2,1fr);
+        width: auto;
+        gap: 20px;
         text-align: center;
-        margin: 10px 0;
     }
     .footer{
         margin-top: 20px;
