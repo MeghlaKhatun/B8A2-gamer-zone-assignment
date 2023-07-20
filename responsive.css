@@ -33,7 +33,7 @@
         flex-direction: column;
         margin: 0 30px;
     }
-    .we-gamer-img{
+    .we-gamer-img img{
         width: 100%;
     }
     .we-gamer-text h3 {
@@ -205,7 +205,7 @@
         flex-direction: column;
         margin: 0 30px;
     }
-    .we-gamer-img{
+    .we-gamer-img img{
         width: 100%;
     }
     .we-gamer-text h3 {
