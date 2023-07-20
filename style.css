@@ -178,13 +178,21 @@ body{
 }
 .third-box:hover .online-game-icon p{
     color: #FF42A5;
+    cursor: pointer;
 }
 .third-box:hover .online-game-icon{
+    cursor: pointer;
     color: black;
 }
+.third-box img{
+    border: 2px solid transparent;
+    border-radius: 18px;
+}
 .third-box:hover img{
-    box-shadow: 5px 5px 5px #FF42A5;
-    border-radius: 13px;
+    cursor: pointer;
+    border: 2px solid #FF42A5;
+    box-shadow: 3px 3px 5px #FF42A5;
+    border-radius: 18px;
 }
 
 
@@ -217,13 +225,25 @@ body{
     width: 353px;
 }
 .rectangle-55 img{
+    border: 1px solid transparent;
+    border-radius: 10px;
     width: 100%;
     position: relative;
 }
 .rectangle-66 img{
+    border: 1px solid transparent;
+    border-radius: 10px;
     position: relative;
     margin-top: -250px;
     margin-left: -150px;
+}
+.rectangle-55:hover img{
+    border: 1px solid #F948B2;
+    border-radius: 10px;
+}
+.rectangle-66:hover img{
+    border: 1px solid #F948B2;
+    border-radius: 10px;
 }
 
 /****** End Play instant style******/
